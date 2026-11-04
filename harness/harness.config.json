@@ -1,0 +1,19 @@
+{
+  "app_name": "factory-sample-django (Backend)",
+  "install_command": "pip install -r requirements.txt -r requirements-dev.txt",
+  "build_command": "python manage.py check",
+  "test_command": "python manage.py test",
+  "start_command": "python manage.py migrate --noinput && python manage.py runserver 0.0.0.0:8000 --noreload",
+  "port": 8000,
+  "health_check_path": "/health/",
+  "protected_paths": [
+    "MISSION.md",
+    "AGENTS.md",
+    "architecture.md",
+    "conventions.md",
+    "design.md",
+    "harness/**",
+    "backend/requirements*.txt",
+    "backend/pyproject.toml"
+  ]
+}
