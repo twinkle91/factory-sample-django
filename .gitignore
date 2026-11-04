@@ -1,0 +1,21 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+db.sqlite3
+
+# Node
+node_modules/
+web/dist/
+
+# Go
+services/notifier/notifier
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
