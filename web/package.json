@@ -1,0 +1,14 @@
+{
+  "name": "tracker-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static status page for the task tracker API. Uses only Node built-ins.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/"
+  }
+}
